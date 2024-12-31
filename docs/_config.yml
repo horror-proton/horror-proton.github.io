@@ -1,0 +1,15 @@
+
+title: Horror-proton's Blog
+email: your-email@example.com
+description: >-
+
+baseurl: ""
+url: ""
+theme: jekyll-theme-primer # slate
+plugins:
+  - jekyll-feed
+
+permalink: none
+
+exclude:
+  - .bundle/
