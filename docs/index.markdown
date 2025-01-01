@@ -7,9 +7,8 @@ layout: home
 
 <ul>
   {% for post in site.posts %}
-    <li>
+    <li style="color: #0008; border: thin solid; border-left-width: 1rem; padding: 1rem; margin: 1.5rem 0rem;">
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
